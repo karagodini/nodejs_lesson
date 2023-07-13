@@ -1,5 +1,3 @@
-import('chalk').then((chalk) => {
-//const chalk = require('chalk')
-console.log(chalk.blue('Hello, world!'));
-//console.log(chalk.blue("pri"))
-})
+import chalk from 'chalk';
+
+console.log(chalk.blue('This is red text'));
